@@ -1,0 +1,37 @@
+.outer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 10vh; 
+    width: 100%;
+    background-color: darkred; 
+    font-family: 'Times New Roman', Times, serif;
+    color: white; 
+    border: 1vh solid black; 
+}
+
+.inner-container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 90vh; 
+    width: 100%; 
+    opacity: 0.7; 
+}
+
+.swipe{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vh;
+    height: 5%;
+}
+
+.add{
+    display: flex;
+    flex-direction: row; 
+    width: 10vh; 
+    height: 5%; 
+}
