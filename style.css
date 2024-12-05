@@ -4,10 +4,11 @@
     justify-content: center; 
     height: 10vh; 
     width: 100%;
-    background-color: darkred; 
+    background-color: red;  
+    opacity: 0.7; 
     font-family: 'Times New Roman', Times, serif;
     color: white; 
-    border: 1vh solid black; 
+    border:  1vh solid gray;
 }
 
 .inner-container{
@@ -15,10 +16,9 @@
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color:darkred;
     height: 90vh; 
     width: 100%; 
-    opacity: 0.7; 
 }
 
 .swipe{
@@ -34,4 +34,32 @@
     flex-direction: row; 
     width: 10vh; 
     height: 5%; 
+    margin-top: 10vh; 
 }
+
+input{
+    display: flex; 
+    height: 260px; 
+    width: 260px; 
+    justify-content: center;
+    align-items: center; 
+}
+
+swipe{
+    display: flex;
+    flex-direction: rows; 
+}
+
+form{
+    display: flex; 
+    flex-direction: column; 
+    height: 40px; 
+    margin-bottom: 20px; 
+    margin-top: 40px;
+}
+
+.bottom{
+    display: flex; 
+    height: 70px;
+}
+
