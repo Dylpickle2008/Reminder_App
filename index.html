@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wake up Buddy!</title>
+    <title>Dylan Rigby</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="outer-container">
-        <h1>RemindMe</h1>
-    </div>
         <div class="inner-container">
-            <div class="input-container"><input type="text" id="name" name="name" size="10"/></div>
-            <div class="swipe">
-               <button class="left"><<</button>
-               <div class="page-value"><h2>0</h2></div>
-               <button class="right">>></button>
+            <div class="display-case">
+                <div class="reminder"><h3>Remind Me <br> Add Events Below!</h3></div>
             </div>
-            <div class="bottom">
-                <form>
-                    <h4>New Reminder:</h4>
-                </form>
+            <div clas="button-container">
+                <button class="leftbutton"><<</button>
+                <h2 id="counter">0</h2>
+                <button class="rightbutton">>></button>
             </div>
-            <button class="add">add</button>
-     </div>
-
+            <div class="remind-submit">
+                <input type="text" class="add-assignment">
+                <button class="submit">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
